@@ -30,15 +30,19 @@ input
 {
 	font-family: "ralewaythin";
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 17px;
 	color: black;
-	border: none;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-color: #F2F2F2;
 	border-width: 1px;
-	height: 88%;
+	height: 45px;
 	border-left: none;
+}
+input::placeholder
+{
+	color: black;
+	opacity: 1;
 }
 
 /*--------------------------------*MOBIL*---------------------------------*/
@@ -62,6 +66,7 @@ p
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-size: 90%;
 }
 
 li
@@ -120,21 +125,22 @@ li
 	border-bottom-color: #0065FC;	
 	color: #0065FC;
 }
-.header-a:focus {
+.header-a:focus 
+{
 	border-bottom-color: #0065FC;	
 	color: #0065FC;
 }
 
 h1,h2
 {
-	font-size: 130%;
+	font-size: 120%;
 	
 }
 
 #bloc-location
 {
-	height: 51px;
-	width: 52px;
+	height: 50px;
+	min-width: 50px;
 	justify-content: center;
 	display: flex;
 	align-items: center;
@@ -172,16 +178,14 @@ form
 	display: flex;
 
 	width: 100%;
+	align-items: center;
 }
-#p-input
-{
-	width: 90%;
-}
+
 input
 {
 
 	font-weight: bold;
-	width: 100%;
+ 	width: 100%;
 }
 #loupe
 {
@@ -214,7 +218,7 @@ input
 
 #filter-select-f
 {
-	width: 120px;
+	width: 122px;
 	display: flex;
 	border-color: #F2F2F2;
 	border-style: solid;
@@ -223,7 +227,7 @@ input
 	align-items: center;
 	margin-bottom: 12px;
 	border-left-width: 0px;
-	/*! margin-left: 10px; */
+	margin-right: 8px;
 	
 }	
 #filter-select-a
@@ -376,7 +380,7 @@ aside
 }
 .icones-aside
 {
-	height: 14%;
+	height: 10%;
 	position: absolute;
 	bottom: 5px;
 }
@@ -404,13 +408,15 @@ aside
 }
 .text
 {
-	margin-left: 15px;
+	margin-left: 8px;
 	
+	margin-bottom: 2px;
 }
 .name
 {
 	font-weight: bold;
 	
+	margin-bottom: 4px;
 }
 .description
 {
@@ -418,9 +424,9 @@ aside
 }
 .stars
 {
-	margin-left: 10px;
+	margin-left: 6px;
 	margin-top: 4px;
-	height:10%;
+	height:8%;
 }
 
 #hebergements
@@ -438,6 +444,7 @@ aside
 	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 40px;
 }
 
 .activity-1,.bloc-activity-2,.bloc-activity-2_1,.bloc-activity-3
