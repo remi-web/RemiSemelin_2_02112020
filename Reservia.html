@@ -43,7 +43,7 @@
 					<img id="icon-location" src="images/Icones/location/map-marker-alt-solid.svg" alt="logo de géolocalisation">
 				</div>	
 				<form method="post" action="traitement.php">
-					<p><input type="text" name="rechercher" placeholder="  Marseille, France"></p>
+					<p id="search-text"><input type="text" name="rechercher" placeholder="Marseille, France"></p>
 					<button>Rechercher<img id="loupe" src="images/Icones/search-solid.svg" alt="boutton cliquable de recherche"></button>
 				</form>
 			
@@ -51,24 +51,26 @@
 		<div id="filter">
 			<div id="filter-text"><p>Filtres</p></div>
 			<ul id="filter-ul">
-				<div class="filter-select">
-					<div class="icon-filter"><img class="img-icon-filter" src="images/Icones/Filtres/money-bill-wave-solid.svg " alt="icone du filtre économique"></div>
-					<li>
+				<li class="filter-select">
+					<div class="icon-filter"><img class="img-icon-filter" src="images/Icones/Filtres/money-bill-wave-solid.svg " alt="icone du filtre économique">
+					</div>
+
+					
 						<a href="link"> <div class="filter-text">Economique </div></a>
-					</li>
-				</div>
-				<div id="filter-select-f">
+					
+				</li>
+				<li id="filter-select-f">
 					<div class="icon-filter"><img class="img-icon-filter" src="images/Icones/Filtres/child-solid.svg " alt="icon du filtre familial" ></div>	
-					<li><a href="link"><div class="filter-text">Familial</div></a></li>
-				</div>
-				<div class="filter-select">
+					<a href="link"><div class="filter-text">Familial</div></a>
+				</li>
+				<li class="filter-select">
 					<div class="icon-filter"><img class="img-icon-filter" src="images/Icones/Filtres/heart-solid.svg " alt="icon du filtre romantique"></div>	
-					<li><a href="link"><div class="filter-text">Romantique</div></a></li>
-				</div>
-				<div id="filter-select-a">
+					<a href="link"><div class="filter-text">Romantique</div></a>
+				</li>
+				<li id="filter-select-a">
 					<div class="icon-filter"><img class="img-icon-filter" src="images/Icones/Filtres/dog-solid.svg" alt="icone du filtre animaux autorisés"></div>	
-					<li><a href="link"><div class="filter-text">Animaux autorisés</div></a></li>
-				</div>
+					<a href="link"><div class="filter-text">Animaux autorisés</div></a>
+				</li>
 			</ul>
 			<div id="info">
 				<div id="icon-info">

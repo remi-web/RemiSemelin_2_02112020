@@ -24,7 +24,6 @@ a
 {
 	text-decoration: none;
 	color: black;
-
 }
 input
 {
@@ -38,12 +37,35 @@ input
 	border-width: 1px;
 	height: 45px;
 	border-left: none;
+	
+	padding-left: 55px;
+	padding-right: 100px;
+	border-radius: 16px;
+	outline-color: #0065FC;
+}
+form
+{
+	position: relative;
+}
+#search-text
+{
+	width: 75%;
 }
 input::placeholder
 {
 	color: black;
 	opacity: 1;
-
+}
+#bloc-location
+{
+	position: absolute;
+	left: initial;
+	z-index: 1;
+}
+button
+{
+	position: absolute;
+	left: 83%;
 }
 
 /*--------------------------------*MOBIL*---------------------------------*/
@@ -145,7 +167,7 @@ h1
 
 #bloc-location
 {
-	height: 50px;
+	height: 47px;
 	min-width: 50px;
 	justify-content: center;
 	display: flex;
@@ -189,9 +211,8 @@ form
 
 input
 {
-
-	font-weight: bold;
- 	width: 100%;
+	font-weight: bold;	
+	width: 69%;
 }
 #loupe
 {
@@ -485,7 +506,7 @@ footer
 
 #bloc-foot
 {
-	margin-left: 20px;
+	/*! margin-left: 20px; */
 }
 @media (max-width: 370px)
 {
@@ -639,7 +660,7 @@ form
 
 input
 {
-	width: 236px;
+	width: 104%;
 }
 button
 {
@@ -651,8 +672,8 @@ button
 	font-weight: bold;
 	color: rgb(255,255,255);
 	border-style: none;
-	width: 140px;
-	height: 48px;	
+	height: 48px;
+	width: 39%;	
 }
 #loupe
 {
@@ -699,6 +720,7 @@ button
 	border-radius: 25px;
 	margin-right: 23px;	
 	border-left-width: 0px;
+	align-items: center;
 }
 
 #filter-select-f
@@ -712,6 +734,7 @@ button
 	margin-right: 23px;
 	border-left-width: 0px;
 
+	align-items: center;
 }
 #filter-select-a
 {
@@ -722,9 +745,10 @@ button
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 25px;
-	margin-right: 23px;
+	margin-left: 18px;
 	border-left-width: 0px;
 
+	align-items: center;
 }
 .filter-select:hover
 {
@@ -737,6 +761,10 @@ button
 #filter-select-f:hover
 {
 	background-color:#DEEBFF;
+}
+.filter-text
+{
+	margin-left: 10px;
 }
 #info
 {
@@ -1139,6 +1167,11 @@ header
 .filter-select,#filter-select-f 
 {
 	margin-bottom: 12px;
+	margin-left: 0;
+}
+#filter-select-a
+{
+	margin-left: 0px;
 }
 
 #section1
@@ -1226,8 +1259,9 @@ footer
 .foot
 {
 	margin-right: 0px;
-	width: auto;
+	/*! width: auto; */
 	
+	padding-right: 20px;
 }
 }
 @media (min-width: 1224px) and (max-width: 1262px)
@@ -1271,6 +1305,10 @@ footer
 	padding-left: initial;
 }
 
+}
+#filter-select-a
+{
+	margin-top: 0;
 }
 
 
