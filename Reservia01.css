@@ -37,11 +37,12 @@ input
 	border-width: 1px;
 	height: 45px;
 	border-left: none;
-	
 	padding-left: 55px;
 	padding-right: 100px;
 	border-radius: 16px;
 	outline-color: #0065FC;
+	border-style: none;
+	outline-width: medium;
 }
 form
 {
@@ -183,6 +184,10 @@ h1
 	height: 40%;
 	margin:auto;
 }
+#search-text
+{
+	height: 49px;
+}
 #search
 {
 	display: flex;
@@ -212,7 +217,7 @@ form
 input
 {
 	font-weight: bold;	
-	width: 69%;
+	width: 62%;
 }
 #loupe
 {
@@ -633,7 +638,7 @@ h1
 #bloc-location
 {
 	width: 49px;
-	height: 49px;
+	height: 47px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	background-color:#F2F2F2;
@@ -652,6 +657,7 @@ h1
 	margin-top: 18px;
 	margin-bottom: 34px;
 	
+	align-items: center;
 }
 form
 {
@@ -660,7 +666,7 @@ form
 
 input
 {
-	width: 104%;
+	width: 106%;
 }
 button
 {
