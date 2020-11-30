@@ -41,7 +41,7 @@ input
 	padding-right: 100px;
 	border-radius: 16px;
 	outline-color: #0065FC;
-	border-style: none;
+	/*! border-style: none; */
 	outline-width: medium;
 }
 form
@@ -202,22 +202,25 @@ button
 	font-size: 0px;
 	color: rgb(255,255,255);
 	border-style: none;
-	width: 50px;
-	height: 50px;
+	width: 49px;
+	height: 49px;
 	padding: 0px;
 }
 form
 {
 	display: flex;
-
 	width: 100%;
 	align-items: center;
+	
+
 }
 
 input
 {
 	font-weight: bold;	
-	width: 62%;
+	width: 107%;
+	padding-right: 0px;
+	height: 42px;
 }
 #loupe
 {
@@ -507,6 +510,7 @@ footer
 	background-color: #F2F2F2;
 	padding-bottom: 30px;
 	padding-top: 30px;
+	padding-left: 20px;
 }
 
 #bloc-foot
@@ -520,6 +524,15 @@ h1
 	font-size: 1.2em;
 }
 }
+@media (min-width:318px) and (max-width: 370px)
+{
+#filter-select-f
+{
+	position: absolute;
+	left: 180px;
+}
+}
+
 
 
 /*---------------------DESKTOP--------------------------------*/
@@ -666,7 +679,7 @@ form
 
 input
 {
-	width: 106%;
+	width: 103%;
 }
 button
 {
@@ -678,7 +691,7 @@ button
 	font-weight: bold;
 	color: rgb(255,255,255);
 	border-style: none;
-	height: 48px;
+	height: 49px;
 	width: 39%;	
 }
 #loupe
