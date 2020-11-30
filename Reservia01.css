@@ -218,9 +218,10 @@ form
 input
 {
 	font-weight: bold;	
-	width: 107%;
+	width: 108%;
 	padding-right: 0px;
-	height: 42px;
+	height: 40px;
+	border-style: hidden;
 }
 #loupe
 {
